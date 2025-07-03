@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://zouhan123i.github.io/zouhan123i.githun.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://zouhan123i.github.io/zouhan123i.githun.io</link></image><lastBuildDate>Thu, 03 Jul 2025 07:07:02 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>Docker 常用命令</title><link>https://zouhan123i.github.io/zouhan123i.githun.io/post/Docker%20-chang-yong-ming-ling.html</link><description>以下是 **Docker 常用命令分类整理**，涵盖镜像管理、容器操作、网络存储等核心场景，适合开发与运维日常使用：
+以下是 **Docker 常用命令分类整理**，涵盖镜像管理、容器操作、网络存储等核心场景，适合开发与运维日常使用：
 
 ---
 
@@ -157,4 +156,4 @@ docker run --rm busybox nslookup google.com
 - **网络存储**：`network`、`volume`
 - **生产工具**：`docker-compose`、`system prune`
 
-建议搭配 **别名（alias）** 提升效率（如 `alias dps='docker ps --format 'table {{.ID}}\t{{.Names}}\t{{.Status}}\t{{.Ports}}''`）。</description><guid isPermaLink="true">https://zouhan123i.github.io/zouhan123i.githun.io/post/Docker%20-chang-yong-ming-ling.html</guid><pubDate>Thu, 03 Jul 2025 07:03:22 +0000</pubDate></item></channel></rss>
+建议搭配 **别名（alias）** 提升效率（如 `alias dps='docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Status}}\t{{.Ports}}"'`）。
